@@ -1,16 +1,16 @@
-## Hi there 👋
+# ¡Hola, soy Taoreta! 👋
 
-<!--
-**taoreta-ed/taoreta-ed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Soy un estudiante de Ingeniería en Sistemas Computacionales en México. Actualmente estoy aprendiendo sobre desarrollo full-stack, inteligencia artificial y algo de electrónica.
 
-Here are some ideas to get you started:
+## 🌱 Actualmente estoy aprendiendo:
+- Node.js y React.
+- Inteligencia artificial y algoritmos.
+- Diseño digital y electrónica.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📚 Mis proyectos:
+- [Portafolio personal en GitHub Pages](https://taoreta-ed.github.io/taoreta-ed)
+
+## 📬 Puedes contactarme en:
+- [LinkedIn](https://www.linkedin.com/in/taoreta-ed/)
+- [Twitter](https://twitter.com/taoreta-ed)
+
