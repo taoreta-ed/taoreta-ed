@@ -1,17 +1,12 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
 
 const App = () => {
     return (
         <div>
             <header>
-                <nav>
-                    <h1>Taoreta</h1>
-                    <ul>
-                        <li><a href="#about">Sobre mí</a></li>
-                        <li><a href="#projects">Proyectos</a></li>
-                        <li><a href="#contact">Contacto</a></li>
-                    </ul>
-                </nav>
+                <Navbar/>
             </header>
             <main>
                 <section id="about">
@@ -22,6 +17,10 @@ const App = () => {
                     <h2>Proyectos</h2>
                     <div>Mis proyectos destacados aparecerán aquí</div>
                 </section>
+
+                {/* Seccion de proyectos */}
+                <Projects/>
+
             </main>
             <footer>
                 <p>Taoreta 2024</p>
