@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Projects from './components/Projects';
+import {Navbar, Projects, Hero} from './components';
 
 const App = () => {
     return (
         <div>
             <header>
-                <Navbar/>
+                <Hero/>
             </header>
             <main>
                 <section id="about">

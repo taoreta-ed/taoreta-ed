@@ -1,8 +1,10 @@
+//Esta sección será la tarjeta donde se mostrará mi nombre, la descripción y el contacto
+
 const Hero = () => (
-    <header id = "home">
+    <div id = "Hero">
         <h1>Hola!</h1>
         <p>Estudiante de sistemas computacionales</p>
-    </header>
+    </div>
 );
 
 export default Hero;
