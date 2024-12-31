@@ -3,7 +3,7 @@
 import {EnvelopeIcon, ClipboardIcon} from '@heroicons/react/24/solid';
 import {useState} from 'react';
 import IconWithTooltip from "./IconWithTooltip";
-import { Html5Plain, Css3Plain, JavascriptOriginal, CPlain, MysqlOriginal, JavaOriginal, NodejsPlain, } from 'devicons-react';
+import { Html5Plain, Css3Plain, JavascriptOriginal, CPlain, MysqlOriginal, JavaOriginal, NodejsPlain, GithubOriginal} from 'devicons-react';
 
 const Hero = () => {
     const [copied, setCopied] = useState(false);
@@ -19,14 +19,14 @@ const Hero = () => {
     }
 
     return(
-        <header className="flex justify-center items-center px-4 py-8 bg-gray-100">
+        <header className="flex justify-center items-center px-4 py-8 bg-zinc-100">
 
             <div className="flex max-w-6xl w-full justify-center items-center">
                 {/* Seccion de texto */}
                 <div className="flex-1 max-w-lg">
                     <h1 className="text-4xl font-bold mb-2">Eduardo Castro</h1>
-                    <h2 className="text-xl text-gray-600 mb-2">Estudiante de sistemas computaciones - IPN</h2>
-                    <p className="text-gray-700 mb-4">Apasionado por crear soluciones tecnológicas eficientes y sostenibles. Enfocado en la
+                    <h2 className="text-xl text-zinc-600 mb-2">Estudiante de sistemas computaciones - IPN</h2>
+                    <p className="text-zinc-700 mb-4">Apasionado por crear soluciones tecnológicas eficientes y sostenibles. Enfocado en la
                     optimización, resolución de problemas y calidad, con un enfoque colaborativo. Proactivo y orientado al crecimiento constante.</p>
 
                     {/*Etquetas de habilidades*/}
@@ -43,12 +43,16 @@ const Hero = () => {
                     {/*Boton de mail dividido en dos partes*/}
                     <div className="flex items-center">
                         {/*Boton de mail*/}
-                        <a href="mailto:taoreta@example.com" className="flex items-center bg-blue-500 text-white px-4 py-2 rounded-l-md hover:bg-blue-600 transition duration-300 h-10">
+                        <a href="mailto:taoreta@example.com" className="flex items-center bg-indigo-400 text-zinc-900 px-4 py-2 rounded-l-md hover:bg-indigo-500 transition duration-300 h-10">
                             <EnvelopeIcon className="h-5 w-5"/></a>
                         {/*Boton de copiar correo*/}
-                        <button onClick={handleCopyEmail} className="flex items-center bg-gray-200 text-blue-500 px-4 py-2 rounded-r-md hover:bg-gray-300 transition duration-300 h-10">
+                        <button onClick={handleCopyEmail} className="flex items-center bg-zinc-900 text-indigo-400 px-4 py-2 rounded-r-md hover:bg-zinc-950 transition duration-300 h-10">
                             <ClipboardIcon className="h-5 w-5 mr-2"/>{copied ? "Copiado!" : "taoreta@example.com"}
                         </button>
+                        {/*Boton de GitHub*/}
+                        <a href="https://github.com/taoreta-ed" target='_blank' rel="noopener noreferrer" className="flex items-center bg-indigo-400 px-4 py-2 rounded-md h-10 ml-2 hover:bg-indigo-500 transition duration-300">
+                            <GithubOriginal/>
+                        </a>
                     </div>
                 </div>
                 

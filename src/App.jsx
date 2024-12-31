@@ -7,11 +7,6 @@ const App = () => {
             <Hero/>
 
             <main>
-                <section id="projects">
-                    <h2>Proyectos</h2>
-                    <div>Mis proyectos destacados aparecerán aquí</div>
-                </section>
-
                 {/* Seccion de proyectos */}
                 <Projects/>
 
