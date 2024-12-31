@@ -9,7 +9,7 @@ function IconWithTooltip({ IconComponent, title, size = 25}) {
     return(
         <div className="relative group">
             <IconComponent size={size} aria-label={title}/>
-            <span className="absolute bottom-[-25px] left-1/2 transform -translate-x-1/2 scale-0 group-hover:scale-100 transition-transform bg-gray-700 text-white text-xs rounded px-2 py-1">{title}</span>
+            <span className="absolute bottom-[-25px] left-1/2 transform -translate-x-1/2 scale-0 group-hover:scale-100 transition-transform bg-zinc-700 text-white text-xs rounded px-2 py-1">{title}</span>
         </div>
     );
 
