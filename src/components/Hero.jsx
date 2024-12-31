@@ -1,8 +1,9 @@
 //Esta sección será la tarjeta donde se mostrará mi nombre, la descripción y el contacto
 
-import SkillTag from "./SkillTag";
 import {EnvelopeIcon, ClipboardIcon} from '@heroicons/react/24/solid';
 import {useState} from 'react';
+import IconWithTooltip from "./IconWithTooltip";
+import { Html5Plain, Css3Plain, JavascriptOriginal, CPlain, MysqlOriginal, JavaOriginal, NodejsPlain, } from 'devicons-react';
 
 const Hero = () => {
     const [copied, setCopied] = useState(false);
@@ -23,19 +24,20 @@ const Hero = () => {
             <div className="flex max-w-6xl w-full justify-center items-center">
                 {/* Seccion de texto */}
                 <div className="flex-1 max-w-lg">
-                    <h1 className="text-4xl font-bold mb-2">Hola! Soy Taoreta</h1>
+                    <h1 className="text-4xl font-bold mb-2">Eduardo Castro</h1>
                     <h2 className="text-xl text-gray-600 mb-2">Estudiante de sistemas computaciones - IPN</h2>
-                    <p className="text-gray-700 mb-4">Descripcion</p>
+                    <p className="text-gray-700 mb-4">Apasionado por crear soluciones tecnológicas eficientes y sostenibles. Enfocado en la
+                    optimización, resolución de problemas y calidad, con un enfoque colaborativo. Proactivo y orientado al crecimiento constante.</p>
 
                     {/*Etquetas de habilidades*/}
                     <div className="flex flex-wrap gap-2 mb-6">
-                        <SkillTag skill="Python"/>
-                        <SkillTag skill="HTML"/>
-                        <SkillTag skill="CSS"/>
-                        <SkillTag skill="JavaScript"/>
-                        <SkillTag skill="React"/>
-                        <SkillTag skill="Node"/>
-                        <SkillTag skill="Express"/>
+                        <IconWithTooltip IconComponent={Html5Plain} title="HTML5" />
+                        <IconWithTooltip IconComponent={Css3Plain} title="CSS3" />
+                        <IconWithTooltip IconComponent={JavascriptOriginal} title="JavaScript" />
+                        <IconWithTooltip IconComponent={CPlain} title="C" />
+                        <IconWithTooltip IconComponent={MysqlOriginal} title="MySQL" />
+                        <IconWithTooltip IconComponent={JavaOriginal} title="Java" />
+                        <IconWithTooltip IconComponent={NodejsPlain} title="Node.js" />
                     </div>
                     
                     {/*Boton de mail dividido en dos partes*/}
