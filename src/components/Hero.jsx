@@ -19,7 +19,7 @@ const Hero = () => {
     }
 
     return(
-        <header className="flex justify-center items-center px-4 py-10 bg-zinc-900">
+        <header className="flex justify-center items-center px-4 py-10 bg-black">
 
             <div className="flex max-w-6xl w-full justify-center items-center">
                 {/* Seccion de texto */}
@@ -44,14 +44,14 @@ const Hero = () => {
                     {/*Boton de mail dividido en dos partes*/}
                     <div className="flex items-center">
                         {/*Boton de mail*/}
-                        <a href="mailto:taoreta@example.com" className="flex items-center bg-indigo-400 text-zinc-950 px-4 py-2 rounded-l-md hover:bg-indigo-500 transition duration-300 h-10">
+                        <a href="mailto:taoreta@example.com" className="flex items-center bg-indigo-400 text-zinc-900 px-4 py-2 rounded-l-md hover:bg-indigo-400/50 transition duration-300 h-10">
                             <EnvelopeIcon className="h-5 w-5"/></a>
                         {/*Boton de copiar correo*/}
-                        <button onClick={handleCopyEmail} className="flex items-center bg-zinc-950 text-indigo-400 px-4 py-2 rounded-r-md hover:bg-zinc-800 transition duration-300 h-10">
+                        <button onClick={handleCopyEmail} className="flex items-center bg-zinc-900 text-indigo-400 px-4 py-2 rounded-r-md hover:bg-zinc-900/50 transition duration-300 h-10">
                             <ClipboardIcon className="h-5 w-5 mr-2"/>{copied ? "Copiado!" : "taoreta@example.com"}
                         </button>
                         {/*Boton de GitHub*/}
-                        <a href="https://github.com/taoreta-ed" target='_blank' rel="noopener noreferrer" className="flex items-center bg-indigo-400 px-4 py-2 rounded-md h-10 ml-2 hover:bg-indigo-500 transition duration-300">
+                        <a href="https://github.com/taoreta-ed" target='_blank' rel="noopener noreferrer" className="flex items-center bg-indigo-400 px-4 py-2 rounded-md h-10 ml-2 hover:bg-indigo-400/50 transition duration-300">
                             <GithubOriginal/>
                         </a>
                     </div>

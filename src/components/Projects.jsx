@@ -19,7 +19,7 @@ const Projects = () => {
     };
 
     return (
-        <section id="projects" className="py-12 px-4 bg-zinc-900 text-zinc-100">
+        <section id="projects" className="py-12 px-4 bg-zinc-950 text-zinc-100">
             <h2 className="text-3xl font-bold mb-10 text-center">Mis proyectos</h2>
             <div className="space-y-12">
                 {/*Validacion previa al mapeo*/}
@@ -27,7 +27,7 @@ const Projects = () => {
                     projects.map((project, index) =>(
                         <div key={index} className="space-y-4">
                             {/*Titulo del proyecto*/}
-                            <h3 className="text-2xl font-semibold text-center">{project.title}</h3>
+                            <h3 className="text-2xl text-indigo-400 font-semibold text-center">{project.title}</h3>
                             {/*Imagen del proyecto*/}
                             <div className="flex justify-center">
                                 <a href={project.url} target="_blank" rel="noopener noreferrer">
