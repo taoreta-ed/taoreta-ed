@@ -19,7 +19,7 @@ const Hero = () => {
     }
 
     return(
-        <header className="flex justify-center items-center px-4 py-8 bg-zinc-900">
+        <header className="flex justify-center items-center px-4 py-10 bg-zinc-900">
 
             <div className="flex max-w-6xl w-full justify-center items-center">
                 {/* Seccion de texto */}

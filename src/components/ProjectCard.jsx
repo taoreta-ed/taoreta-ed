@@ -1,4 +1,4 @@
-const ProjectCard = ({title, description, url}) => (
+const ProjectCard = ({title, description, url, imgUrl}) => (
     <div>
         <h3>{title}</h3>
         <p>{description}</p>

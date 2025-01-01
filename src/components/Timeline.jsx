@@ -16,7 +16,7 @@ const Timeline = () => {
     ];
 
     return (
-        <section className="flex justify-center items-center px-4 py-8 bg-zinc-900">
+        <section className="flex justify-center items-center px-4 py-10 bg-zinc-900">
             <div className="flex flex-col max-w-6xl w-full justify-center items-center">
                 <h2 className="text-3xl text-zinc-100 font-bold mb-6">Mi trayectoria</h2>
                 <ol className="relative border-l border-zinc-100">
