@@ -1,5 +1,6 @@
 import React from 'react';
 import {Navbar, Projects, Hero} from './components';
+import Timeline from './components/Timeline';
 
 const App = () => {
     return (
@@ -7,6 +8,8 @@ const App = () => {
             <Hero/>
 
             <main>
+                {/* Seccion de timeline */}
+                <Timeline/>
                 {/* Seccion de proyectos */}
                 <Projects/>
 

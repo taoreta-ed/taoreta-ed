@@ -60,7 +60,7 @@ const Hero = () => {
                 {/*Seccion de imagen*/} 
                 <div className="flex-1 text-center max-w-xs">
                     <img
-                        src="/media/Knight.webp"
+                        src="./media/Knight.webp"
                         alt="Foto de perfil"
                         className="w-64 h-64 rounded-full mx-auto object-cover"
                     />
